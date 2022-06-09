@@ -1,0 +1,25 @@
+GET http://localhost:3000/
+
+###
+
+POST http://localhost:3000/
+Content-Type: application/json
+
+{
+  "title": "Python",
+  "body": "Why is a programming language named after an animal",
+  "username": "Kalashin"
+}
+
+###
+GET http://localhost:3000/62a1e5d6857a3f9a278a1783
+
+
+###
+PATCH  http://localhost:3000/62a1e615857a3f9a278a1788
+Content-Type: application/json
+
+{
+  "title": "Python",
+  "body": "Why is a programming language named after a snake"
+}
